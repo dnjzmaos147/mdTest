@@ -6,7 +6,7 @@
 # 1. SFP 라이브러리
 SFP 는 현재 java 11 버전을 사용하고 있으며, SFP의 라이브러리 구성은 다음과 같다.
 <br><br>
-<img src="image/common/sfp-common-1.0-diagram.png">
+<center><img src="image/common/sfp-common-1.0-diagram.png"></center>
 <center><그림> SFP 라이브러리 구성도<br></center>
 <br>
 

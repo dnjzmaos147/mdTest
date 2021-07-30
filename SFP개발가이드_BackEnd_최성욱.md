@@ -12,7 +12,7 @@ configprops.yml 파일에 스케줄러를 동작 여부를 제어하는 프로�
 
 <br>
 
-<img src="./image/backend/sfp-backend-1.8-batch.png">
+<center><img src="./image/backend/sfp-backend-1.8-batch.png"></center>
 <br><br>
 
 ## 1.8.1 구현예시(Class 제어)

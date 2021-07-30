@@ -23,7 +23,7 @@ BoxTag.selectBox.draw([
 <center><그림> 적용할 html 예시<br></center>
 <br>
 
-<img src="./image/frontend/sfp-frontend-3.3-option.png">
+<center><img src="./image/frontend/sfp-frontend-3.3-option.png" width="300px"></center>
 <center><그림> 적용된 화면 결과 예시<br></center>
 <br>
 
@@ -51,7 +51,7 @@ BoxTag.draw([  //기존 BoxTag.selectBox.draw에서 selectBox가 생략됨
 <center><그림> BoxTag.draw타입 지정 예시<br></center>
 <br>
 
-<img src="./image/frontend/sfp-frontend-3.3-delyn.png">
+<center><img src="./image/frontend/sfp-frontend-3.3-delyn.png" width="300px"></center>
 <center><그림> multiCheck타입 결과 화면 예시<br></center>
 <br><br><br>
 
@@ -62,7 +62,7 @@ slave_cd를 key값,   slave_name을  value값으로 사용 한다.<br>
 masterCd : (적용할 master_cd 이름)<br>
 (예시는 위 예시 코드와 같다 )
 <br>
-<img src="./image/frontend/sfp-frontend-3.3-optiontable.png">
+<center><img src="./image/frontend/sfp-frontend-3.3-optiontable.png"></center>
 <center><그림> master_cd 테이블 예시<br></center>
 <br><br><br>
 
@@ -139,16 +139,16 @@ BoxTag.draw([
 6. text : text로 사용할 키 (slaveNm)
 7. tableNm : 조회할 메모리 테이블명 (직접 DB에서 조회 하지 않음)
 8. selectedValue : Box에서 선택할 값이다. ex) selectBox에서는 selectedValue로 지정한 값이 가장 먼저 보여 진다.<br>
-            <img src="./image/frontend/sfp-frontend-3.3-selectedValue.png">
+            <center><img src="./image/frontend/sfp-frontend-3.3-selectedValue.png" width="300px"></center>
             <center><그림> selectValue  예시<br></center>
 9. removeValue : Box에서 삭제할 값, 해당 값이 삭제된 Box로 나온다.<br>
-            <img src="./image/frontend/sfp-frontend-3.3-removeValue.png">
+           <center><img src="./image/frontend/sfp-frontend-3.3-removeValue.png" width="300px"></center>
             <center><그림> removeValue  예시<br></center>
 10. children : select에서 값의 연계가 필요한 경우 (children에 또 다시 BoxTag를 정의 -> children : “BoxTagName”) (List안에 List 존재)<br>
 Ex) 연속된 selectBox A, B, C가 연계되어 있다.
 => (주소) select A : 도,특별시 / select B : 시,군,구 / select C :  읍,면,동 ( B는 A에 종속, C는 B에 종속 )
 11. vertical : (true : 세로/ false : 가로) – checkBox와 radioBox일 때 유효하다.<br>
-            <img src="./image/frontend/sfp-frontend-3.3-vertical.png">
+            <center><img src="./image/frontend/sfp-frontend-3.3-vertical.png" width="300px"></center>
             <center><그림> vertical   예시<br></center>
 12. type : BoxTag가 가지고 있는 값의 타입 (기본 : checkbox/radioBox) + selectBox
 13. params : 서버와 통신하는 params
@@ -164,7 +164,7 @@ Ex) 연속된 selectBox A, B, C가 연계되어 있다.
  ```
  <center><그림> filter 사용 예시<br></center><br>
 
- <img src="./image/frontend/sfp-frontend-3.3-filter.png">(code_sort가 1인 빨간색RED는 나오지 않음)<br>
+ <center><img src="./image/frontend/sfp-frontend-3.3-filter.png" width="300px">(code_sort가 1인 빨간색RED는 나오지 않음)</center><br>
 <center><그림>filter결과 화면 예시<br></center><br>
 
 
