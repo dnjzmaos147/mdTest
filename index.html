@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./sfp-dateutils.js"></script>
+    <script>
+        // $(function(){
+        //     window.sfp = (function($){
+
+
+                
+        //         var d = new Date;
+        //         var d1 = "20210204055436";
+        //         var d2 = "20210204055439";
+        //         var r1 = DateUtils.fnDiffSecond(d1, d2);
+                
+                
+        //         console.log(r1);
+
+
+
+
+
+        //     })(jQuery);
+        // });
+        const calculate1 = {
+  a: 2,
+  square: function(b) {
+    return this.a ** 2;
+  }
+};
+
+
+// this는 calculate1을 가리킴
+
+const calculate2 = Object.create(calculate1);
+// calculate2는 프로토타입을 calculate1으로 가지는 객체이다.
+
+// calculate2.a = 4;  // calcultate2에 'a'라는 새로운 속성을 만듦. (method overriding)
+console.log(calculate2.square());  // 16
+        
+    </script>
+</body>
+</html>
